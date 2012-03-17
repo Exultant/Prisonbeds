@@ -1,0 +1,13 @@
+name: Prisonbeds
+version: 0.1.2
+description: Type "/pbset" to set the respawn point of the next player you kill. Sleep in a bed to change your respawn point back to the bed. Not persistant. Untested. Probably incredibly buggy.
+author: cxschx
+authors: [cxschx, Exultant]
+
+main: com.untamedears.Prisonbeds.Prisonbeds
+database: false
+
+commands:
+  pbset:
+    description: Sets the next player you kill's spawn point for him!
+    usage: /pbset
