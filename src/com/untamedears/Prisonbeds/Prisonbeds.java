@@ -1,6 +1,5 @@
 package com.untamedears.Prisonbeds;
 
-import java.awt.Color;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
