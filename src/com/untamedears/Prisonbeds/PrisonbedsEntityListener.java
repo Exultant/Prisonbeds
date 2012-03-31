@@ -33,7 +33,7 @@ public class PrisonbedsEntityListener implements Listener
 			{
 				System.out.println("Prisonbeds - " + killer.getDisplayName() + " imprisoned " + victim.getDisplayName());
 				victim.sendMessage("You were imprisoned by " + killer.getDisplayName());
-				plugin.getServer().broadcastMessage(victim.getDisplayName() + " was imprisoned by " + killer.getDisplayName());
+				//plugin.getServer().broadcastMessage(victim.getDisplayName() + " was imprisoned by " + killer.getDisplayName());
 				correctedSpawns.put(victim.getDisplayName(), (Location)primedCorrections.get(killer.getDisplayName()));
 				primedCorrections.remove(killer.getDisplayName());
 			}
