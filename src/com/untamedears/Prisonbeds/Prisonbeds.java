@@ -27,7 +27,6 @@ public class Prisonbeds extends JavaPlugin
 	{
 		PluginManager pm = getServer().getPluginManager();
 		
-		
 		pm.registerEvents(this.playerListener, this);
 		pm.registerEvents(this.entityListener, this);
 		
